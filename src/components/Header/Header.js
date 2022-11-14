@@ -8,13 +8,14 @@ const Header = () => {
             <div
                 className="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3 items-center"
             >
-                <a href="index.html">
+            <h2 className='font-bold text-2xl pl-10'>Blog Webpage</h2>
+                {/* <a href="index.html">
                     <img
                         className="h-10"
-                        src={headerImg}
-                        alt="Learn with Sumit"
+                        src="hjgjgh"
+                        alt="Blog Webpage"
                     />
-                </a>
+                </a> */}
             </div>
         </nav>
     </>

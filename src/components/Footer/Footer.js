@@ -4,20 +4,21 @@ const Footer = () => {
   return (
     <>
        
-        <section className="pt-6">
+        <section className="pt-3">
             <div
-                className="max-w-7xl mx-auto px-5 py-6 lg:px-0 flex justify-between gap-2 border-t text-sm text-slate-400"
+                
             >
-                <div>Copyright 2022 Sahara Banu.</div>
-                <div>
+                <div className='text-center py-2 '>Copyright 2022 Sahara Banu.  
+               
                     <a
-                        href="https://youtube.com/learnwithsumit"
+                        href="https://www.linkedin.com/in/saharabanu/"
                         target="_blank"
                         rel="noreferrer"
+                        className='pl-5 text-red-700'
                     >
-                        YouTube Channel
+                        LinkedIn 
                     </a>
-                </div>
+                    </div>
             </div>
         </section>
     </>
